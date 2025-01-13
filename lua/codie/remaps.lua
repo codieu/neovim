@@ -1,6 +1,6 @@
 -- just steal these from prev setup
 
-vim.keymap.set('n', '<leader>t', vim.cmd.Ex)
+-- vim.keymap.set('n', '<leader>t', vim.cmd.Ex)
 
 vim.keymap.set({"n", "v"}, '<Left>', '')
 vim.keymap.set({"n", "v"}, '<Right>', '')
