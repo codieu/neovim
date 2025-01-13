@@ -12,4 +12,4 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("codie.plugs")
+require("lazy").setup("plugs")
