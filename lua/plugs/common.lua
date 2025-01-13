@@ -4,9 +4,6 @@ local M = {
 
   { 'williamboman/mason.nvim' },
   { 'williamboman/mason-lspconfig.nvim' },
-
-  -- Doesnt really need config soo
-  {"lewis6991/gitsigns.nvim"},
 }
 
 return M
