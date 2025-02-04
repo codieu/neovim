@@ -33,3 +33,6 @@ vim.keymap.set("t", '<M-l>', '<C-\\><C-n><C-w>l')
 
 -- terminal mode
 vim.keymap.set("t", '<C-w>', '<C-\\><C-n>')
+
+-- what has java forced me to do
+vim.keymap.set("n", '<leader>;', 'A;')

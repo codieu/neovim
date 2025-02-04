@@ -8,8 +8,8 @@ vim.opt.smartindent = true
 
 vim.opt.wrap = false
 
-vim.opt.nu = true
 vim.opt.relativenumber = true
+vim.opt.number = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -22,8 +22,8 @@ vim.opt.scrolloff = 6
 vim.opt.colorcolumn = "80"
 
 -- folding
--- vim.opt.foldmethod = "expr"
--- vim.opt.foldcolumn = "1"
--- vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
+vim.opt.foldmethod = "expr"
+vim.opt.foldcolumn = "1"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
-vim.opt.statuscolumn='%C%s%l'
+vim.opt.statuscolumn='%C%s%{v:relnum?v:relnum:v:lnum}'

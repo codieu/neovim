@@ -11,7 +11,7 @@ local M = {
   },
 
   init = function() 
-    vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
+    vim.opt.undodir = vim.fn.stdpath('data') .. "/undodir"
     vim.opt.undofile = true
   end,
 }
